@@ -4,3 +4,38 @@
     box-sizing: border-box;
 }
 
+:root {
+    --text-color: #fff;
+    --bg-img: url(./assets/bg-mobile.jpg);
+    --stroke-color: rgba(255, 255, 255, 0.5);
+    --surface-color: rgba(255, 255, 255, 0.05);
+    --surface-color-hover: rgba(0, 0, 0, 0.02);
+    --highlight-color: rgba(255, 255, 255, 0.2);
+    --switch-bg: url(./assets/moon-stars.svg);
+}
+
+.light {
+    --text-color: #000;
+    --bg-img: url(./assets/bg-mobile-light.jpg);
+    --stroke-color: rgba(0, 0, 0, 0.5);
+    --surface-color: rgba(0, 0, 0, 0.05);
+    --surface-color-hover: rgba(0, 0, 0, 0.02);
+    --highlight-color: rgba(0, 0, 0, 0.1);
+    --switch-bg: url(./assets/sun.svg);
+}
+
+.body {
+    background-image: var(--bg-img);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 100vh;
+}
+
+body * {
+    font-family: "Rubik", sans-serif;
+    /* color: var(--text-color) */
+
+}
+
+
