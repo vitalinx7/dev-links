@@ -5,6 +5,11 @@
 </p>
 
 
+<p align="center">
+  <img alt="project" src=".github/preview.png" width="80%">
+</p>
+
+
 ## 💻 Project
 
 DevLinks is a link aggregator to use as an online business card.
